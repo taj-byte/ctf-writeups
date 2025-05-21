@@ -13,7 +13,7 @@ Your input: 5cec56a312a7
 You won!  
 picoCTF{...}  
 
-基礎知識
+基礎知識  
 PIE（Position Independent Executable（位置非依存実行ファイル））  
 実行時にメモリ上のどこに配置されても動作するように作られたバイナリのこと。  
 
