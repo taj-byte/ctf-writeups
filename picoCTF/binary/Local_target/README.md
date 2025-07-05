@@ -1,4 +1,4 @@
-# Picker_IV:bynary Medium  
+# Local_target:bynary Medium  
 Smash the stack  
 Download the source [here](Local_target.c)     
 Additional details will be available after launching your challenge instance  
