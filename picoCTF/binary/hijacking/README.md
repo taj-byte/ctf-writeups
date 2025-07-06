@@ -64,8 +64,8 @@ host_info = socket.gethostbyaddr(ip)
 host_info_to_str = str(host_info[2])  
 host_info = base64.b64encode(host_info_to_str.encode('ascii'))  
 print("Hello, this is a part of information gathering",'Host: ', host_info)  
-picoctf@challenge:~$ vi .server.py  
-picoctf@challenge:~$ cat .server.py  
+picoctf@challenge:〜$ vi .server.py  
+picoctf@challenge:〜$ cat .server.py  
 import os  
 os.system("/bin/bash")  
 
