@@ -125,3 +125,9 @@ SUDO -lをしたところ/usr/bin/python3 /home/picoctf/.server.pyはパスワ�
 なので、次に.server.pyを編集する。（.server.pyに書き込み権限があるため実行できる）  
 そして、SUDOで/usr/bin/python3 /home/picoctf/.server.pyを実行するとルートへ昇格できた。  
 最後にルートディレクトリのFLAG.txtをcatコマンドで実行するとFLAG.txtが獲得できた  
+
+# ポイント  
+sudoでpyton3プロセスが起動するー＞python3がルート権限で実行される。  
+その後、.server.pyが実行されると内部のos．sytem（"/bin/bash"）が実行される。  
+よって、ルート権限をもつbashプロセスがターミナルに表示される。  
+＊pyton3のルート権限を引き継いでいるだけなのでos．sytem（"/bin/bash"）を実行すると権限が昇格するわけではない  
